@@ -22,7 +22,7 @@ Instructions for Claude Code and contributors working on this repository.
 
 ## Project Overview
 
-RSS Feed Generator creates RSS feeds for blogs that don't provide them natively. Feed generators scrape blog pages and output `feed_*.xml` files to the `feeds/` directory. A GitHub Action runs hourly to regenerate and commit updated feeds.
+RSS Feed Generator creates RSS feeds for blogs that don't provide them natively. Feed generators scrape blog pages and output `feed_*.xml` files to the `feeds/` directory. A GitHub Action runs every 12 hours to regenerate and commit updated feeds.
 
 ## Commands
 
@@ -38,6 +38,7 @@ make feeds_<name>         # Run specific feed (e.g., feeds_ollama, feeds_anthrop
 # Development
 make dev_format           # Format code with black and isort
 make dev_test_feed        # Run test feed generator
+make dev_check_feeds      # Check health of all generated feeds
 
 # Run single generator directly
 python feed_generators/ollama_blog.py
@@ -56,6 +57,7 @@ feed_generators/           # Python scripts that scrape blogs and generate RSS
   <source>_blog.py         # Individual feed generators
 feeds/                     # Output directory for feed_*.xml files
 cache/                     # JSON cache for paginated/dynamic feeds
+scripts/                   # Utility scripts (check_feeds.py for monitoring)
 makefiles/                 # Modular Makefile includes (feeds.mk, env.mk, dev.mk, ci.mk)
 ```
 
@@ -261,7 +263,15 @@ Before submitting your PR, verify:
 - Add the date format to the `date_formats` list
 - Use `stable_fallback_date()` for entries without parseable dates
 
+## Monitoring
+
+Run `make dev_check_feeds` or `python scripts/check_feeds.py` to check feed health. It validates:
+- XML structure is well-formed
+- Feeds contain entries
+- Entries have required fields (title, link, pubDate)
+- Freshness (warns if newest entry is older than 30 days)
+
 ## GitHub Actions
 
-- `run_feeds.yml` - Runs hourly, executes `run_all_feeds.py`, commits updated XML files
+- `run_feeds.yml` - Runs every 12 hours, executes `run_all_feeds.py`, commits updated XML files
 - `test_feed.yml` - Tests feed generation on PRs

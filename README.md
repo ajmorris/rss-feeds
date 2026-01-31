@@ -95,7 +95,7 @@ Use @cmd_rss_feed_generator.md to convert @<html_file>.html to a RSS feed for <b
 ```mermaid
 flowchart TB
     subgraph GitHub["GitHub Repository"]
-        action[[GitHub Action<br/>Hourly Cron Job]]
+        action[[GitHub Action<br/>Every 12 Hours]]
         runner{{"run_all_feeds.py"}}
         feeds["Feed Generators<br/>(*.py files)"]
         xml["Generated RSS Feeds<br/>(feed_*.xml)"]
