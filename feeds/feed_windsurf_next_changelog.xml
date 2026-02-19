@@ -8,11 +8,27 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Feb 2026 12:24:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Feb 2026 00:47:22 +0000</lastBuildDate>
+    <item>
+      <title>Windsurf Next 1.9552.1024</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.9552.1024</link>
+      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fix for self-updating on Windows&lt;/li&gt;&lt;li&gt;Fix for macOS UI flickering&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9552.1024#1.9552.1024</guid>
+      <category>Changelog</category>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Windsurf Next 1.9552.1021</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.9552.1021</link>
-      <description>&lt;h3&gt;Claude Sonnet 4.6&lt;/h3&gt;&lt;p&gt;Claude Sonnet 4.6 is now available in Windsurf with limited-time promotional pricing for self serve users:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;No thinking:2x credits&lt;/li&gt;&lt;li&gt;With thinking:3x credits&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Cascade Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Plan Mode now supports automatic switching back to Code Mode when you start implementing a plan&lt;/li&gt;&lt;li&gt;Added support for reading skills from the.agents/skillsdirectory&lt;/li&gt;&lt;li&gt;Tracking triggered rules in thepost_cascade_responsehook via a newrules_appliedfield&lt;/li&gt;&lt;li&gt;Diff zones will now automatically close on commit&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Linux ARM64 Support&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Full Linux ARM64 client support with deb and rpm packaging&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Enterprise &amp; Team Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Cloud configuration for Cascade Hooks is now available for enterprise teams via the cloud dashboard&lt;/li&gt;&lt;li&gt;Support for Devin service key authentication&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixes forpost_write_codehooks to handle all code editing tool formats&lt;/li&gt;&lt;li&gt;Fixes and improvements for MCP server resource loading&lt;/li&gt;&lt;li&gt;Fixed osascript privilege escalation being incorrectly triggered on Linux for shell command installation&lt;/li&gt;&lt;li&gt;Addressed multiple memory leaks&lt;/li&gt;&lt;li&gt;Improved RTL language rendering in todo lists&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;h3&gt;Claude Sonnet 4.6&lt;/h3&gt;&lt;p&gt;Claude Sonnet 4.6 is now available in Windsurf with limited-time promotional pricing for self serve users:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;No thinking:2x credits&lt;/li&gt;&lt;li&gt;With thinking:3x credits&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;GLM-5 and Minimax M2.5&lt;/h3&gt;&lt;p&gt;Two new models are now available in Windsurf with limited-time promotional pricing:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GLM-5from Zhipu AI — 0.75x credits for a limited time&lt;/li&gt;&lt;li&gt;Minimax M2.5— 0.25x credits for a limited time&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Both models are available to all users and are included in Arena Mode's Frontier Arena and Hybrid Arena battle groups.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9552.1021#1.9552.1021</guid>
+      <category>Changelog</category>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windsurf Next 1.9552.1021</title>
+      <link>https://windsurf.com/changelog/windsurf-next#1.9552.1021</link>
+      <description>&lt;h3&gt;Cascade Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Plan Mode now supports automatic switching back to Code Mode when you start implementing a plan&lt;/li&gt;&lt;li&gt;Added support for reading skills from the.agents/skillsdirectory&lt;/li&gt;&lt;li&gt;Tracking triggered rules in thepost_cascade_responsehook via a newrules_appliedfield&lt;/li&gt;&lt;li&gt;Diff zones will now automatically close on commit&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Linux ARM64 Support&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Full Linux ARM64 client support with deb and rpm packaging&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Enterprise &amp; Team Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Cloud configuration for Cascade Hooks is now available for enterprise teams via the cloud dashboard&lt;/li&gt;&lt;li&gt;Support for Devin service key authentication&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fixes forpost_write_codehooks to handle all code editing tool formats&lt;/li&gt;&lt;li&gt;Fixes and improvements for MCP server resource loading&lt;/li&gt;&lt;li&gt;Fixed osascript privilege escalation being incorrectly triggered on Linux for shell command installation&lt;/li&gt;&lt;li&gt;Addressed multiple memory leaks&lt;/li&gt;&lt;li&gt;Improved RTL language rendering in todo lists&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.9552.1021#1.9552.1021</guid>
       <category>Changelog</category>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
@@ -60,7 +76,7 @@
     <item>
       <title>Windsurf Next 1.13.115</title>
       <link>https://windsurf.com/changelog/windsurf-next#1.13.115</link>
-      <description>&lt;h3&gt;GLM-5 and Minimax M2.5&lt;/h3&gt;&lt;p&gt;Two new models are now available in Windsurf with limited-time promotional pricing:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GLM-5from Zhipu AI — 0.75x credits for a limited time&lt;/li&gt;&lt;li&gt;Minimax M2.5— 0.25x credits for a limited time&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Both models are available to all users and are included in Arena Mode's Frontier Arena and Hybrid Arena battle groups.&lt;/p&gt;&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fix bug with permanently disconnected cascades&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;h3&gt;Bug Fixes and Improvements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fix bug with permanently disconnected cascades&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#1.13.115#1.13.115</guid>
       <category>Changelog</category>
       <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
