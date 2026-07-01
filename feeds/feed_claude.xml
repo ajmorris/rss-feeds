@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Jun 2026 12:53:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 01:15:18 +0000</lastBuildDate>
+    <item>
+      <title>Getting started with loops</title>
+      <link>https://claude.com/blog/getting-started-with-loops</link>
+      <description>Getting started with loops</description>
+      <guid isPermaLink="false">https://claude.com/blog/getting-started-with-loops</guid>
+      <category>Claude Code</category>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Claude in Microsoft Foundry is now generally available</title>
       <link>https://claude.com/blog/claude-in-microsoft-foundry</link>
