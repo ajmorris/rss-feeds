@@ -13,7 +13,28 @@
       <link>https://cursor.com/blog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 13:26:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 02:28:14 +0000</lastBuildDate>
+    <item>
+      <title>Firetiger joins Cursor</title>
+      <link>https://cursor.com/blog/firetiger</link>
+      <guid isPermaLink="false">https://cursor.com/blog/firetiger</guid>
+      <category>company</category>
+      <pubDate>Thu, 13 Aug 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cloud agents start 3x faster with builds</title>
+      <link>https://cursor.com/blog/builds</link>
+      <guid isPermaLink="false">https://cursor.com/blog/builds</guid>
+      <category>product</category>
+      <pubDate>Thu, 13 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cursor earns AIUC-1 certification for agent security and reliability</title>
+      <link>https://cursor.com/blog/aiuc-1</link>
+      <guid isPermaLink="false">https://cursor.com/blog/aiuc-1</guid>
+      <category>company</category>
+      <pubDate>Thu, 13 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Introducing Grok 4.6</title>
       <link>https://cursor.com/blog/grok-4-6</link>
@@ -84,25 +105,11 @@
       <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CFOs and the new economics of AI</title>
-      <link>https://cursor.com/blog/cfo-council</link>
-      <guid isPermaLink="false">https://cursor.com/blog/cfo-council</guid>
-      <category>company</category>
-      <pubDate>Mon, 06 Jul 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Build from anywhere with Cursor for iOS</title>
       <link>https://cursor.com/blog/ios-mobile-app</link>
       <description>Cursor is available as a native iOS app on your phone, now in public beta.</description>
       <guid isPermaLink="false">https://cursor.com/blog/ios-mobile-app</guid>
       <pubDate>Mon, 29 Jun 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Notion used the Cursor SDK to embed coding agents</title>
-      <link>https://cursor.com/blog/notion</link>
-      <guid isPermaLink="false">https://cursor.com/blog/notion</guid>
-      <category>product</category>
-      <pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Coinbase reduces time from idea to production by 90% with Cursor</title>
