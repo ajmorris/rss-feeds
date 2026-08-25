@@ -13,7 +13,14 @@
       <link>https://anthropic.com/feed_anthropic_changelog_claude_code.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Aug 2026 01:40:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 12:58:41 +0000</lastBuildDate>
+    <item>
+      <title>v2.1.245</title>
+      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21245</link>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed a crash on startup on Linux distributions that ship glibc 2.44 (for example Arch Linux, CachyOS and Fedora Rawhide)&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21245</guid>
+      <category>Changelog</category>
+    </item>
     <item>
       <title>v2.1.243</title>
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21243</link>
@@ -355,13 +362,6 @@
       <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21190</link>
       <description>&lt;ul&gt;&lt;li&gt;Bug fixes and reliability improvements&lt;/li&gt;&lt;/ul&gt;</description>
       <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21190</guid>
-      <category>Changelog</category>
-    </item>
-    <item>
-      <title>v2.1.187</title>
-      <link>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21187</link>
-      <description>&lt;ul&gt;&lt;li&gt;Added `sandbox.credentials` setting to block sandboxed commands from reading credential files and secret environment variables&lt;/li&gt;&lt;li&gt;Added org-configured model restrictions to the model picker, `--model`, `/model`, and `ANTHROPIC_MODEL`, with a "restricted by your organization's settings" message when a restricted model is selected&lt;/li&gt;&lt;li&gt;Added mouse click support to select menus (permission prompts, `/model`, `/config`, etc.) in fullscreen mode&lt;/li&gt;&lt;li&gt;Fixed `--resume` failing with "No conversation found" when the original `-p` run produced no model turns&lt;/li&gt;&lt;li&gt;Fixed `--json-schema` and workflow `agent({schema})` structured output: the model can no longer re-call `StructuredOutput` indefinitely after a successful call, and follow-up turns now reliably return structured output&lt;/li&gt;&lt;li&gt;Fixed remote MCP tool calls that hang with no response for 5 minutes — they now abort with an error instead of blocking indefinitely (override with `CLAUDE_CODE_MCP_TOOL_IDLE_TIMEOUT`)&lt;/li&gt;&lt;li&gt;Fixed Claude Code Remote sessions taking ~2.7s longer to start after the agent proxy CA system-trust install was added&lt;/li&gt;&lt;li&gt;Fixed pasted Korean/CJK text turning into mojibake in terminals that deliver paste as per-byte extended-key events&lt;/li&gt;&lt;li&gt;Fixed `/update` over Remote Control hanging when a startup trust dialog would have shown&lt;/li&gt;&lt;li&gt;Fixed background jobs in the agents view getting stuck in "working" indefinitely when the agent ended a turn without producing structured output&lt;/li&gt;&lt;li&gt;Fixed channel connections dropping after navigating to the agents view and back, and after `/bg`, `/tui`, or `/update`&lt;/li&gt;&lt;li&gt;Fixed agent stop notifications not correctly attributing who stopped the agent, and improved wording ("finished"/"stopped" instead of "came to rest")&lt;/li&gt;&lt;li&gt;Fixed subagent depth tracking: resumed subagents now restore their original spawn depth, and forked subagents now count toward the depth cap&lt;/li&gt;&lt;li&gt;Fixed leaked agent worktree registrations: locked `.git/worktrees/` entries from killed agents are now cleaned up automatically&lt;/li&gt;&lt;li&gt;Fixed Cmd+click not opening URLs in fullscreen mode in Ghostty on macOS&lt;/li&gt;&lt;li&gt;Fixed `claude --help` not listing the `--bg`/`--background` flag&lt;/li&gt;&lt;li&gt;Fixed Esc, Ctrl-C, and Ctrl-D not working while `/share` is uploading&lt;/li&gt;&lt;li&gt;Improved `/install-github-app`: GitHub Actions workflow setup is now optional — you can install just the GitHub App and skip the workflow/secret steps&lt;/li&gt;&lt;li&gt;Improved `/btw` with ←/→ arrow navigation to step through earlier answers&lt;/li&gt;&lt;li&gt;Improved `/plugin` to surface plugins you haven't used recently so you can clean them up&lt;/li&gt;&lt;li&gt;[VSCode] Fixed extension becoming unresponsive when resuming a large session&lt;/li&gt;&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#21187</guid>
       <category>Changelog</category>
     </item>
   </channel>
