@@ -13,7 +13,7 @@
       <link>https://ollama.com/blog/feed_ollama.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Aug 2026 01:46:22 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 13:05:55 +0000</lastBuildDate>
     <item>
       <title>Run Llama 2 uncensored locally</title>
       <link>https://ollama.com/blog/run-llama2-uncensored-locally</link>
@@ -405,6 +405,13 @@
       <description>NVIDIA Nemotron 3.5 Lightning is now available on Ollama. It's a 30 billion parameter (3B active) open model built for agents that stay running, gathering context, calling tools, and working through multi-step tasks on your own hardware.</description>
       <guid isPermaLink="false">https://ollama.com/blog/nemotron-3-5-lightning</guid>
       <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Desktop support with Ollama</title>
+      <link>https://ollama.com/blog/claude-desktop</link>
+      <description>Claude Desktop can now be configured to work with Ollama as a third-party gateway provider, making it possible to use open models in Claude.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/claude-desktop</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
