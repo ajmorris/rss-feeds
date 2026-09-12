@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Sep 2026 04:13:41 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 15:24:55 +0000</lastBuildDate>
     <item>
       <title>5 Examples of the Importance of Context-Sensitivity in Data-Centric AI</title>
       <link>https://www.surgehq.ai/blog/why-context-aware-datasets-are-crucial-for-data-centric-ai</link>
@@ -325,7 +325,7 @@
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>We Trained a Model on Office Work. It Got Better at Coding.</title>
+      <title>We Trained a Model on Office Work. It Also Got Better at Coding: +5.8pp on SWE-Bench Pro.</title>
       <link>https://www.surgehq.ai/blog/office-work-post-training-improves-coding</link>
       <description>A model post-trained on non-coding office tasks gained 5.8 points on SWE-Bench Pro. Our analysis points to transferable Goal-Directed Execution.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/office-work-post-training-improves-coding</guid>
@@ -353,7 +353,7 @@
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Fable 5.1 Scores 68.7 on the Tuesday Work Index, Leading a New Frontier Model Cohort</title>
+      <title>Fable 5.1, Muse Spark 1.3, and Gemini 3.8 Flash on the Tuesday Work Index</title>
       <link>https://www.surgehq.ai/blog/fable-5-1-tuesday-work-index</link>
       <description>Fable 5.1 leads overall with 68.7 on the Tuesday Work Index. Muse Spark 1.3 leads ComplexConstraints. Gemini 3.8 Flash pushes the cost-performance frontier on frontier mathematics.</description>
       <guid isPermaLink="false">https://www.surgehq.ai/blog/fable-5-1-tuesday-work-index</guid>
