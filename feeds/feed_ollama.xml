@@ -13,7 +13,7 @@
       <link>https://ollama.com/blog/feed_ollama.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Sep 2026 17:58:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 05:10:16 +0000</lastBuildDate>
     <item>
       <title>Run Llama 2 uncensored locally</title>
       <link>https://ollama.com/blog/run-llama2-uncensored-locally</link>
@@ -419,6 +419,13 @@
       <description>Ollama's Pro, Max, and Team plans now use industry-standard per-token pricing with usage included on every plan.</description>
       <guid isPermaLink="false">https://ollama.com/blog/transparent-pricing</guid>
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ollama now supports Jev-style decision models</title>
+      <link>https://ollama.com/blog/ollama-now-supports-jev-style-decision-models</link>
+      <description>Ollama now supports decision models, based on TypeSafe's Jev API for fast, typed decisions. Decision models can now be run at no cost with low latency. Based on text, decision models answer yes-or-no questions, choices and scores about it, with a probability for every option.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/ollama-now-supports-jev-style-decision-models</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
