@@ -13,7 +13,7 @@
       <link>https://ollama.com/blog/feed_ollama.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 19:09:26 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 04:30:39 +0000</lastBuildDate>
     <item>
       <title>Run Llama 2 uncensored locally</title>
       <link>https://ollama.com/blog/run-llama2-uncensored-locally</link>
@@ -426,6 +426,13 @@
       <description>Ollama now supports decision models, based on TypeSafe's Jev API for fast, typed decisions. Decision models can now be run at no cost with low latency. Based on text, decision models answer yes-or-no questions, choices and scores about it, with a probability for every option.</description>
       <guid isPermaLink="false">https://ollama.com/blog/ollama-now-supports-jev-style-decision-models</guid>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Run AI agents safely with Ollama and Fly.io</title>
+      <link>https://ollama.com/blog/fly-io-sprites</link>
+      <description>AI agents can now use Ollama's cloud models safely inside Fly.io's cloud computers.</description>
+      <guid isPermaLink="false">https://ollama.com/blog/fly-io-sprites</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
