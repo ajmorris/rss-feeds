@@ -13,28 +13,7 @@
       <link>https://anthropic.com/research/feed_anthropic_research.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 19:24:26 +0000</lastBuildDate>
-    <item>
-      <title>Enabling independent research on how people use Claude</title>
-      <link>https://www.anthropic.com/research/enabling-independent-research</link>
-      <description>Enabling independent research on how people use Claude</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/enabling-independent-research</guid>
-      <category>Research</category>
-    </item>
-    <item>
-      <title>Automated researchers can reliably mitigate alignment failures</title>
-      <link>https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures</link>
-      <description>Automated researchers can reliably mitigate alignment failures</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures</guid>
-      <category>Research</category>
-    </item>
-    <item>
-      <title>Formalizing Fermat's Last Theorem</title>
-      <link>https://www.anthropic.com/research/formalizing-fermats-last-theorem</link>
-      <description>Formalizing Fermat's Last Theorem</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/formalizing-fermats-last-theorem</guid>
-      <category>Research</category>
-    </item>
+    <lastBuildDate>Fri, 06 Nov 2026 06:07:32 +0000</lastBuildDate>
     <item>
       <title>An alignment assessment of recent cybersecurity incidents</title>
       <link>https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</link>
@@ -57,6 +36,13 @@
       <category>Research</category>
     </item>
     <item>
+      <title>Project Swap: What happens when agents trade for us?</title>
+      <link>https://www.anthropic.com/research/project-swap</link>
+      <description>Project Swap: What happens when agents trade for us?</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/project-swap</guid>
+      <category>Research</category>
+    </item>
+    <item>
       <title>What do you want from AI?</title>
       <link>https://www.anthropic.com/research/your-thoughts-on-ai</link>
       <description>What do you want from AI?</description>
@@ -75,6 +61,13 @@
       <link>https://www.anthropic.com/research/claude-shaped-science</link>
       <description>Claude-shaped science</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/claude-shaped-science</guid>
+      <category>Research</category>
+    </item>
+    <item>
+      <title>The missing map of the sky</title>
+      <link>https://www.anthropic.com/research/the-missing-map-of-the-sky</link>
+      <description>The missing map of the sky</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/the-missing-map-of-the-sky</guid>
       <category>Research</category>
     </item>
     <item>
